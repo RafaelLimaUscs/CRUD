@@ -1,0 +1,47 @@
+# Gradle
+.gradle
+/build
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Kotlin / Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+/out/
+target/
+.idea/
+*.log
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# H2 database files (if any)
+*.mv.db
+*.trace.db
+
+# build outputs
+build/
+.gradle/
+
+# temporary files
+*.tmp
