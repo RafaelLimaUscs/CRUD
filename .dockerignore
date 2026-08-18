@@ -1,0 +1,38 @@
+# Gradle / build
+.gradle
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Java/Kotlin artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs, temp
+*.log
+tmp/
+temp/
+
+# Docker context heavy dirs
+node_modules/
+target/
+
+# Secrets / env
+.env
+*.keystore
+*.jks
